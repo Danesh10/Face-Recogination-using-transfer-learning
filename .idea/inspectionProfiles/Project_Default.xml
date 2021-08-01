@@ -1,0 +1,49 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E302" />
+          <option value="W292" />
+          <option value="E303" />
+          <option value="W391" />
+          <option value="E301" />
+          <option value="E251" />
+          <option value="E225" />
+          <option value="E211" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="id" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="stockant.stockant_Danesh.models.stock" />
+          <option value="stockant.stockant_Danesh.views.ObjectDoesNotExist" />
+          <option value="stockant.stockant_Danesh.views.stock.*" />
+          <option value="stockant.*" />
+          <option value="django.db.models.fields.related.ForeignKey.sector" />
+          <option value="django.db.models.fields.related.ForeignKey.first_name" />
+          <option value="django.db.models.fields.related.ForeignKey.id" />
+          <option value="django.db.models.fields.related.ForeignKey.last_name" />
+          <option value="django.db.models.fields.FloatField.__sub__" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="XmlDuplicatedId" enabled="false" level="ERROR" enabled_by_default="false" />
+  </profile>
+</component>
